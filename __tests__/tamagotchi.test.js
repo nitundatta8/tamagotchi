@@ -22,7 +22,8 @@ describe('Pet',() =>{
 
   test('should increase happy meter by 5 if light if off ',() =>{
     jest.advanceTimersByTime(6001); 
-    pet.sleep();
+    let val = pet.sleep();
+    console.log(val + " val")
     expect(pet.happyMeter).toEqual(5);
   });
   
