@@ -17,7 +17,10 @@ _This web an application that mimics the Tamagotchi game which adjusts food, pla
 
 ## Specs
 
-* - Pet has a name and a food level of 10 when it is created.
+* - Mametchi has a name and a food level of 10 when it is created.
+* - Mametchi will ask for food after 5 seconds, it will decrease and then we will increase the food level. 
+* - When Mametchi goes to sleep if the lights is on the happy meter goes down by 5.  If the lights are off the happy meter goes up by 5. 
+
 
 ## Known Bugs
 - 
