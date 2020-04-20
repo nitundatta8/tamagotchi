@@ -34,6 +34,13 @@ describe('Pet',() =>{
     expect(pet.happyMeter).toEqual(10);
   });
 
+  test('should decrease tiredness by 1 after back from playground',() =>{
+    pet.getTired();
+    expect(pet.tiredness).toEqual(9);
+  });
+
+
+
 
 
 });

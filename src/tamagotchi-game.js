@@ -3,14 +3,14 @@ export class Pet{
     this.name = name;
     this.foodLevel = 10;
     this.happyMeter = 0;
-    // this.light = false;
-    // this.play = true;
     this.flag = true;
+    this.tiredness = 10;
   }
 
   setHungry(){
     setInterval(() =>{
      return this.foodLevel--;
+     
     },1000)
   }
 
@@ -33,6 +33,16 @@ export class Pet{
       return this.happyMeter;
     }
   }
+
+  getTired(){ 
+    if (this.flag === true) {
+      return this.tiredness -= 1;
+    } else {
+      return this.tiredness;
+    }
+  }
+
+  
 
 };
 

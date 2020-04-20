@@ -21,6 +21,7 @@ _This web an application that mimics the Tamagotchi game which adjusts food, pla
 * - Mametchi will ask for food after 5 seconds, it will decrease and then we will increase the food level. 
 * - When Mametchi goes to sleep if the lights is on the happy meter goes down by 5.  If the lights are off the happy meter goes up by 5. 
 * - When Mametchi gets play time the happy meter goes up by 10, if we are busy with coding exercises and can't play then happy meter goes down by 5. 
+* - When Mametchi goes to play outside the pet gets tired and increase the tiredness by one. 
 
 
 ## Known Bugs
