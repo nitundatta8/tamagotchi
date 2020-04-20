@@ -3,7 +3,9 @@ export class Pet{
     this.name = name;
     this.foodLevel = 10;
     this.happyMeter = 0;
-    this.light = false;
+    // this.light = false;
+    // this.play = true;
+    this.flag = true;
   }
 
   setHungry(){
@@ -16,12 +18,20 @@ export class Pet{
       return this.foodLevel =10;
   }
   sleep(){
-    if (this.light === false) {
+    if (this.flag === true) {
       return this.happyMeter = 5;
     } else {
       return this.happyMeter;
     }
     
+  }
+
+  playground(){ 
+    if (this.flag === true) {
+      return this.happyMeter += 10;
+    } else {
+      return this.happyMeter;
+    }
   }
 
 };
